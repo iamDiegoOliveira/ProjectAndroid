@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A4DDD1"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,8 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
+        android:background="@color/purple_700"
         android:text="@string/app_name"
-        android:textSize="24sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +29,8 @@
         android:layout_height="77dp"
         android:layout_marginTop="80dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/name"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/tvTitulo"
         app:layout_constraintStart_toStartOf="@+id/tvTitulo"
         app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
@@ -36,8 +41,8 @@
         android:layout_height="77dp"
         android:layout_marginTop="80dp"
         android:ems="10"
-        android:inputType="numberPassword"
         android:hint="@string/password"
+        android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@+id/edUsuario"
         app:layout_constraintStart_toStartOf="@+id/edUsuario"
         app:layout_constraintTop_toBottomOf="@+id/edUsuario" />
@@ -56,6 +61,7 @@
         android:layout_width="217dp"
         android:layout_height="55dp"
         android:layout_marginTop="60dp"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/login"
         app:layout_constraintEnd_toEndOf="@+id/edSenha"
         app:layout_constraintHorizontal_bias="0.512"
