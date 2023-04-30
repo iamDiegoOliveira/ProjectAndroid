@@ -7,4 +7,13 @@
     <string name="login">Login</string>
     <string name="textoExemplo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. </string>
     <string name="msgError">Usuário incorreto</string>
+    <string name="textoExemplo" translatable="false"> Benefícios do esporte:
+
+     1.Reduz o estresse
+     2.Aumenta a autoconfiança
+     3.Melhora a concentração
+     4.Aumenta o condicionamento físico e a resistência
+
+
+    </string>
 </resources>

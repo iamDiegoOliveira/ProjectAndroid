@@ -4,14 +4,12 @@
     <string name="password">Password</string>
     <string name="remember">Remember</string>
     <string name="login">Login</string>
-    <string name="textoExemplo"> Benefícios do esporte:
+    <string name="textEx" translatable="false"> Sport benefits:
 
-     1.Reduz o estresse
-     2.Aumenta a autoconfiança
-     3.Melhora a concentração
-     4.Aumenta o condicionamento físico e a resistência
-
-
+     1. Reduces stress
+     2.Increases self-confidence
+     3.Improves concentration
+     4.Increases fitness and endurance
     </string>
     <string name="msgError">User error</string>
     <string name="textoExemplo2">A saúde está ligada diretamente aos esportes, a prática de execícios traz muitos benefícios, a seguir veremos alguns deles. </string>
